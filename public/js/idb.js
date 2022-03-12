@@ -66,3 +66,5 @@ function uploadTransaction() {
     }
   };
 }
+
+window.addEventListener('online', uploadTransaction);
